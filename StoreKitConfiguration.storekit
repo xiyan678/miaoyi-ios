@@ -1,0 +1,8 @@
+{
+  "products": [
+    {"id":"com.example.InstantTranslate.pro.monthly","type":"AutoRenewableSubscription","referenceName":"秒译 Pro 月度会员","duration":"1 month","price":"29.00","displayPrice":"¥29.00"},
+    {"id":"com.example.InstantTranslate.pro.yearly","type":"AutoRenewableSubscription","referenceName":"秒译 Pro 年度会员","duration":"1 year","price":"198.00","displayPrice":"¥198.00"},
+    {"id":"com.example.InstantTranslate.pro.lifetime","type":"NonConsumable","referenceName":"秒译 Pro 永久会员","price":"398.00","displayPrice":"¥398.00"}
+  ],
+  "settings": {"_appStoreReview": {"localizations": [{"locale":"zh_CN","description":"解锁秒译 Pro 实时同传会员权益。"}]}}
+}
