@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>UIApplicationSceneManifest</key><dict><key>UIApplicationSupportsMultipleScenes</key><false/></dict><key>CFBundleDisplayName</key><string>秒译</string><key>CFBundleIdentifier</key><string>com.example.InstantTranslate</string><key>CFBundleName</key><string>InstantTranslate</string><key>CFBundlePackageType</key><string>APPL</string><key>CFBundleShortVersionString</key><string>1.0</string><key>CFBundleVersion</key><string>1</string><key>LSRequiresIPhoneOS</key><true/><key>UILaunchScreen</key><dict/><key>UIBackgroundModes</key><array><string>audio</string></array><key>NSMicrophoneUsageDescription</key><string>用于实时识别对方说的话并生成翻译。</string><key>NSSpeechRecognitionUsageDescription</key><string>用于将对话语音转写为文字。</string><key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array>
+</dict></plist>
+
+
