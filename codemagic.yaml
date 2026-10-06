@@ -1,0 +1,28 @@
+workflows:
+  ios-simulator:
+    name: 秒译 iOS Simulator Build
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      xcode: latest
+      vars:
+        XCODE_PROJECT: "InstantTranslate.xcodeproj"
+        XCODE_SCHEME: "InstantTranslate"
+    scripts:
+      - name: List Xcode project schemes
+        script: xcodebuild -list -project "$XCODE_PROJECT"
+      - name: Build unsigned iOS Simulator app
+        script: |
+          xcodebuild build \
+            -project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME" \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            -derivedDataPath "$CM_BUILD_DIR/build/DerivedData" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+    artifacts:
+      - $CM_BUILD_DIR/build/DerivedData/Build/Products/Debug-iphonesimulator/*.app
+      - /tmp/xcodebuild_logs/*.log
