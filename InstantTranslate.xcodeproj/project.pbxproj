@@ -1,0 +1,40 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  A10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600;}; buildConfigurationList = A10000000000000000000002; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A10000000000000000000003; productRefGroup = A10000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000005,);};
+  A10000000000000000000003 /* Main Group */ = {isa = PBXGroup; children = (A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000004,); sourceTree = "<group>";};
+  A10000000000000000000004 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000009,); name = Products; sourceTree = "<group>";};
+  A10000000000000000000006 /* App Sources */ = {isa = PBXGroup; children = (A10000000000000000000010, A10000000000000000000011, A10000000000000000000012, A10000000000000000000025, A10000000000000000000027,); path = InstantTranslate; sourceTree = "<group>";};
+  A10000000000000000000010 /* InstantTranslateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantTranslateApp.swift; sourceTree = "<group>";};
+  A10000000000000000000011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>";};
+  A10000000000000000000012 /* TranslationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationStore.swift; sourceTree = "<group>";};
+  A10000000000000000000025 /* MembershipStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipStore.swift; sourceTree = "<group>";};
+  A10000000000000000000027 /* MembershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipView.swift; sourceTree = "<group>";};
+  A10000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>";};
+  A10000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InstantTranslate/Assets.xcassets; sourceTree = "<group>";};
+  A10000000000000000000009 /* 秒译.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "秒译.app"; sourceTree = BUILT_PRODUCTS_DIR;};
+  A10000000000000000000005 /* InstantTranslate */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000013; buildPhases = (A10000000000000000000014, A10000000000000000000015, A10000000000000000000016,); buildRules = (); dependencies = (); name = InstantTranslate; productName = InstantTranslate; productReference = A10000000000000000000009; productType = "com.apple.product-type.application";};
+  A10000000000000000000014 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000017, A10000000000000000000018, A10000000000000000000019, A10000000000000000000026, A10000000000000000000028,); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000017 = {isa = PBXBuildFile; fileRef = A10000000000000000000010;};
+  A10000000000000000000018 = {isa = PBXBuildFile; fileRef = A10000000000000000000011;};
+  A10000000000000000000019 = {isa = PBXBuildFile; fileRef = A10000000000000000000012;};
+  A10000000000000000000026 = {isa = PBXBuildFile; fileRef = A10000000000000000000025;};
+  A10000000000000000000028 = {isa = PBXBuildFile; fileRef = A10000000000000000000027;};
+  A10000000000000000000015 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000016 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000020,); runOnlyForDeploymentPostprocessing = 0;};
+  A10000000000000000000020 = {isa = PBXBuildFile; fileRef = A10000000000000000000008;};
+  A10000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000021, A10000000000000000000022,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A10000000000000000000021 = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.InstantTranslate; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = InstantTranslate/Info.plist; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;}; name = Debug;};
+  A10000000000000000000022 = {isa = XCBuildConfiguration; buildSettings = {IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.InstantTranslate; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = InstantTranslate/Info.plist; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;}; name = Release;};
+  A10000000000000000000013 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000023, A10000000000000000000024,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A10000000000000000000023 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.InstantTranslate; PRODUCT_NAME = "秒译"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = InstantTranslate/Info.plist; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;}; name = Debug;};
+  A10000000000000000000024 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.InstantTranslate; PRODUCT_NAME = "秒译"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = InstantTranslate/Info.plist; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;}; name = Release;};
+ };
+ rootObject = A10000000000000000000001;
+}
+
+
+
